@@ -1,0 +1,44 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "de.tomalbrc.skillcore.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EntityMixin",
+    "LivingEntityMixin",
+    "PreventLootLivingEntityMixin",
+    "ServerEntityMixin",
+    "accessor.AbstractArrowAccessor",
+    "accessor.AttributeMapAccessor",
+    "accessor.CombatTrackerAccessor",
+    "accessor.EntityAccessor",
+    "accessor.Haha",
+    "accessor.ItemEntityAccessor",
+    "accessor.LivingEntityAccessor",
+    "accessor.MobAccessor",
+    "accessor.ThrowableItemProjectileAccessor",
+    "ext.EntityMixin",
+    "ext.LivingEntityMixin",
+    "ext.ThreatTracker_LivingEntityMixin",
+    "options.SunburnMixin",
+    "trigger.AttackerMixin",
+    "trigger.CombatMixin",
+    "trigger.CreeperMixin",
+    "trigger.EntityMixin",
+    "trigger.LivingEntityMixin",
+    "trigger.MobMixin",
+    "trigger.OnTrade",
+    "trigger.PlayerMixin",
+    "trigger.ServerGamePacketListenerImplMixin",
+    "trigger.TamableAnimalMixin",
+    "trigger.WardenMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
